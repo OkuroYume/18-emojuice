@@ -2,9 +2,79 @@ body {
   max-width: 380px;
   margin: auto;
   background: #ddd;
+  text-align: center;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header {
+  background-image: url("../img/background.png");
+  background-size: cover;
+}
+
+.title-box {
+  background-color:white;
+  margin: 40px;
+  padding: 30px;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-green {
+  color: white;
+  text-decoration: none;
+  background-color: #7db96f;
+  padding: 15px 5px 15px 5px;
+  margin: 10px 70px 10px 70px;
+  border-radius: 15px;
+}
+
+.cta-light {
+  color:#7db96f;
+  text-decoration: none;
+  background-color: white;
+  padding: 15px 5px 15px 5px;
+  margin: 10px 100px 50px 100px;
+  border-radius: 15px;
+}
+
+.fruits {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.fruits img {
+  width: 15px;
+}
+
+.produit-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: aqua;
+  margin: 30px 0 30px 0;
+  border-radius: 30px;
+}
+
+.produit-box img {
+  width: 90px;
+}
+
+.main-introduction {
+  background-color: white;
+}
+
+main {
+  background-color:#7db96f;
+}
+
+footer {
+  background-color: white;
 }
