@@ -22,6 +22,8 @@ header {
   background-color:white;
   margin: 40px;
   padding: 30px;
+  font-family:'Quattrocento Sans', serif ;
+  font-size: 20px;
 }
 
 .cta-container {
@@ -36,6 +38,7 @@ header {
   padding: 15px 5px 15px 5px;
   margin: 10px 70px 10px 70px;
   border-radius: 15px;
+  font-family:'Maven Pro', sans-serif;
 }
 
 .cta-light {
@@ -45,6 +48,7 @@ header {
   padding: 15px 5px 15px 5px;
   margin: 10px 100px 50px 100px;
   border-radius: 15px;
+  font-family:'Maven Pro', sans-serif;
 }
 
 .cta-green .facebook {
@@ -54,6 +58,10 @@ header {
   padding: 15px 5px 15px 5px;
   margin: 10px 100px 50px 100px;
   border-radius: 15px;
+}
+
+a {
+  font-family:'Maven Pro', sans-serif;
 }
 
 .fruits {
@@ -80,11 +88,18 @@ header {
 
 .main-introduction {
   background-color: white;
-  padding: 70px 50px 70px 50px;
+  padding: 50px 60px 70px 60px;
 }
 
 .main-introduction h2 {
   color: black;
+  font-family:'Maven Pro', sans-serif;
+  font-size: 24px;
+}
+
+.main-introduction p {
+  font-family:'Quattrocento Sans', serif ;
+  margin: 20px 30px 30px 30px;
 }
 
 h2 {
@@ -105,3 +120,4 @@ footer {
   color: #7db96f;
   padding-top: 20px;
 }
+
