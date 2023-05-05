@@ -21,7 +21,7 @@ header {
   color: #7db96f;
   background-color:white;
   margin: 40px;
-  padding: 30px;
+  padding: 40px;
   font-family:'Quattrocento Sans', serif ;
   font-size: 20px;
 }
@@ -35,29 +35,30 @@ header {
   color: white;
   text-decoration: none;
   background-color: #7db96f;
-  padding: 8px 0 8px 0;
-  margin: 10px 90px 12px 90px;
-  border-radius: 10px;
-  font-family:'Maven Pro', sans-serif;
+  padding: 10px 5px 10px 5px;
+  margin: 10px 70px 18px 70px;
+  border-radius: 15px;
+  font-size: 20px;
 }
 
 .cta-light {
   color:#7db96f;
   text-decoration: none;
   background-color: white;
-  padding: 8px 0 8px 0;
-  margin: 10px 120px 12px 120px;
-  border-radius: 10px;
-  font-family:'Maven Pro', sans-serif;
+  padding: 10px 5px 10px 5px;
+  margin: 10px 105px 35px 105px;
+  border-radius: 15px;
+  font-size: 20px;
 }
 
 .facebook {
   color: white;
   text-decoration: none;
   background-color: #7db96f;
-  padding: 8px 0 8px 0;
-  margin: 10px 115px 40px 115px;
-  border-radius: 10px;
+  padding: 10px 5px 10px 5px;
+  margin: 10px 105px 35px 105px;
+  border-radius: 15px;
+  font-size: 20px;
 }
 
 .instagram {
@@ -65,8 +66,9 @@ header {
   text-decoration: none;
   background-color: #7db96f;
   padding: 8px 0 8px 0;
-  margin: 10px 110px 5px 110px;
-  border-radius: 10px;
+  margin: 10px 100px 5px 100px;
+  border-radius: 15px;
+  font-size: 20px;
 }
 
 .email {
@@ -74,8 +76,9 @@ header {
   text-decoration: none;
   background-color: #7db96f;
   padding: 8px 0 8px 0;
-  margin: 10px 70px 5px 70px;
-  border-radius: 10px;
+  margin: 10px 50px 5px 50px;
+  border-radius: 15px;
+  font-size: 20px;
 }
 
 a {
