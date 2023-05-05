@@ -35,9 +35,9 @@ header {
   color: white;
   text-decoration: none;
   background-color: #7db96f;
-  padding: 15px 5px 15px 5px;
-  margin: 10px 70px 10px 70px;
-  border-radius: 15px;
+  padding: 8px 0 8px 0;
+  margin: 10px 90px 12px 90px;
+  border-radius: 10px;
   font-family:'Maven Pro', sans-serif;
 }
 
@@ -45,23 +45,42 @@ header {
   color:#7db96f;
   text-decoration: none;
   background-color: white;
-  padding: 15px 5px 15px 5px;
-  margin: 10px 100px 50px 100px;
-  border-radius: 15px;
+  padding: 8px 0 8px 0;
+  margin: 10px 120px 12px 120px;
+  border-radius: 10px;
   font-family:'Maven Pro', sans-serif;
 }
 
-.cta-green .facebook {
+.facebook {
   color: white;
   text-decoration: none;
   background-color: #7db96f;
-  padding: 15px 5px 15px 5px;
-  margin: 10px 100px 50px 100px;
-  border-radius: 15px;
+  padding: 8px 0 8px 0;
+  margin: 10px 115px 40px 115px;
+  border-radius: 10px;
+}
+
+.instagram {
+  color: white;
+  text-decoration: none;
+  background-color: #7db96f;
+  padding: 8px 0 8px 0;
+  margin: 10px 110px 5px 110px;
+  border-radius: 10px;
+}
+
+.email {
+  color: white;
+  text-decoration: none;
+  background-color: #7db96f;
+  padding: 8px 0 8px 0;
+  margin: 10px 70px 5px 70px;
+  border-radius: 10px;
 }
 
 a {
   font-family:'Maven Pro', sans-serif;
+  color: black;
 }
 
 .fruits {
@@ -74,16 +93,23 @@ a {
   width: 25px;
 }
 
-.produit-box {
+.yellow-box {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 30px 0 30px 0;
   border-radius: 30px;
+  background-color: #ddd;
+  padding: 60px 20px 60px 20px;
+  margin: 20px 30px 0 30px;
 }
 
-.produit-box img {
+.product-section img {
   width: 90px;
+}
+
+.product-box h3 {
+  font-family: 'Sriracha', cursive;
 }
 
 .main-introduction {
@@ -105,19 +131,34 @@ a {
 h2 {
   margin: 0;
   color: white;
+  font-family:'Maven Pro', sans-serif;
 }
 
 main h2 {
   padding-top: 40px;
 }
 
-.section-produit {
+.product-section {
   background-color:#7db96f;
 }
 
 footer {
   background-color: white;
   color: #7db96f;
-  padding-top: 20px;
+  padding: 20px 30px 20px 30px;
 }
 
+footer h3 {
+  font-family:'Maven Pro', sans-serif;
+  font-size: 20px;
+}
+
+footer img {
+  margin: 0 20px 20px 20px;
+}
+
+footer p {
+  font-family:'Maven Pro', sans-serif;
+  margin: 0 40px 20px 40px;
+  font-size: 12px;
+}
